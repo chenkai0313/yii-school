@@ -1,0 +1,23 @@
+{
+  "name": "getpu/yii2-mgmt",
+  "description": "yii2 mgmt",
+  "keywords": ["mgmt"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "getpu",
+      "email": "getpu@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "getpu\\mgmt\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "getpu/yii2-lte",
+    "description": "yii2 lte",
+    "keywords": ["adminlte"],
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "getpu",
+            "email": "getpu@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require" : {
+        "getpu/yii2-user": "~1.0.0",
+        "getpu/yii2-rbac": "~1.0.0",
+        "getpu/yii2-mgmt": "~1.0.0",
+        "getpu/yii2-tree": "~1.0.0",
+        "getpu/yii2-plug": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "getpu\\lte\\": ""
+        }
+    }
+}

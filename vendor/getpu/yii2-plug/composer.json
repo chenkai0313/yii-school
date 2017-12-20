@@ -1,0 +1,19 @@
+{
+  "name": "getpu/yii2-plug",
+  "description": "yii2 plug",
+  "keywords": ["adminlte"],
+  "type": "yii2-extension",
+  "license": "BSD 3-Clause",
+  "authors": [
+    {
+      "name": "getpu",
+      "email": "getpu@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "getpu\\plug\\": ""
+    }
+  }
+}

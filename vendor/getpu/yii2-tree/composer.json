@@ -1,0 +1,24 @@
+{
+  "name": "getpu/yii2-tree",
+  "description": "changed for yii2 tree",
+  "keywords": ["tree"],
+  "homepage": "https://github.com/getpu/yii2-tree",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "getpu",
+      "email": "getpu@qq.com",
+      "homepage": "http://www.getpu.com/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+      "creocoder/yii2-nested-sets": "~0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "getpu\\tree\\": ""
+    }
+  }
+}

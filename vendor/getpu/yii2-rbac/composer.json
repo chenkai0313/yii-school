@@ -1,0 +1,22 @@
+{
+  "name": "getpu/yii2-rbac",
+  "description": "yii2 rbac",
+  "keywords": ["rbac"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "getpu",
+      "email": "getpu@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "getpu\\rbac\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "getpu\\rbac\\Bootstrap"
+  }
+}
